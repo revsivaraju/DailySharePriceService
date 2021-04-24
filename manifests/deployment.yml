@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: "dailysharepricecluster-da9c"
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: "dailysharepricecluster-da9c"
