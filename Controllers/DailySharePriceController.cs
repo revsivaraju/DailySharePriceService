@@ -35,6 +35,13 @@ namespace DailySharePrice.Controllers
             }  
           return Ok(obj);
         }
+        [HttpGet]
+        public ActionResult GetAllStocks()
+        {
+
+            return Ok(InMemoryStockDb.dailyStockDetails);
+
+        }
 
         
         
